@@ -43,6 +43,5 @@ EXPOSE 5900
 
 # open into Gryphon
 WORKDIR /home/mp_user/mp_gryphon/gryphon/python
-ENTRYPOINT ["python3"]
-CMD ["mp.py"]
+ENTRYPOINT ["python3", "mp.py", "-v"]
 

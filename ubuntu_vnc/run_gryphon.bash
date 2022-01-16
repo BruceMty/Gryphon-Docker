@@ -1,3 +1,3 @@
 #!/bin/bash
-docker run -it --expose 5900:5900 -u mp_user gryphon
+docker run -it -p 5900:5900 -u mp_user gryphon
 
