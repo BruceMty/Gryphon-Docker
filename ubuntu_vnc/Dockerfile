@@ -38,6 +38,9 @@ RUN make
 ENV QT_DEBUG_PLUGINS=1
 ENV QT_QPA_PLATFORM="vnc:size=1920x1280"
 
+# port
+EXPOSE 5900
+
 # open into Gryphon
 WORKDIR /home/mp_user/mp_gryphon/gryphon/python
 ENTRYPOINT ["python3"]
